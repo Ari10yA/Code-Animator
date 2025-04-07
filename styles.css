@@ -1,0 +1,21 @@
+.animator {
+  position: relative;
+}
+
+.code-snippet {
+  position: absolute;
+  background-color: aqua;
+  transition: opacity 0.5s, left 1s;
+}
+
+.code-snippet__removal {
+  display: none;
+}
+
+.code-snippet__add {
+  opacity: 0;
+}
+
+.execute {
+  margin-top: 20px;
+}
