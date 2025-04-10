@@ -1,6 +1,8 @@
 const animatorContainer = document.querySelector(".animator");
 const executeButton = document.querySelector(".execute");
 
+const diff_Api = new diff_match_patch();
+
 const map = [
   { value: -1, key: "Goo" },
   { value: 1, key: "Ba" },
